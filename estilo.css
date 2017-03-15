@@ -1,0 +1,257 @@
+html, body, .capa{
+	height: 100%;
+}
+
+body{
+
+	background: url('imagens/capa.png') ,
+				url('imagens/ruido.png') ,
+				linear-gradient(50deg,red,yellow);
+	background-attachment: fixed;
+	font-family: Circular,Helvetica,Arial,Sans-serif;
+	overflow-x: hidden;
+	
+}
+
+/* ================== inicio barra de navegação =================== */
+.foto-computador{
+	display: block;
+}
+.img-logo{
+	width: 132px;
+	height: 40px;
+	display: block;
+	background: url(imagens/spotify.svg) no-repeat;
+	background-size: contain;
+	
+}
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+.navbar-brand{
+	
+	padding: 5px 15px ;
+	
+}
+.container{
+	padding:0px;
+}
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 15px 10px;
+}
+ul.navbar-menu{
+	margin-right: 10px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-size: 15px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#9bf0e1;
+}
+.espacamento{
+	margin: 0px 5px;
+
+
+}
+#servicos{
+	background: white;
+	padding-top: 20px;
+
+	}
+#recursos{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#computador{
+	background: #232323;
+	margin-top: 80px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+#preco{
+
+	margin-top: 100px; 
+}
+.foto-computador{
+	margin-bottom: 30px;
+}
+.menu-computador{
+	font-size: 16px;
+	padding: 0px 0px 0px 10px;
+}
+.centralizar{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 920px;
+	float: none;
+	padding-bottom: 50px;
+	
+}
+.paragrafo-preco{
+	font-weight: 400;
+	line-height: 1.4;
+	margin-bottom: 1.5em;
+}
+
+.albuns{
+	padding: 10px 0px;
+}
+.recursos-esquerda{
+	padding-top: 100px;
+}
+.rotacional{
+	transform: rotate(30deg);
+	padding-left: 80px;
+	padding-right: 0px;
+}
+.foto{
+	
+	width:358px;
+	height: 730px;
+	margin: 0px; 
+	
+}
+.imagem-celular{
+	display: block;
+	width: 430px;
+	height: auto;
+	padding-top: 50px;
+	margin-left: 85px;
+}
+.espacamento-top{
+	padding-top: 60px;
+}
+.espacamento-left{
+	margin-left: 30px;
+}
+#footer{
+	background: black;
+	margin-top: 60px;
+	padding:60px 0px; 
+	position: relative;
+
+}
+.footer-header{
+	text-transform: uppercase;
+	color: #919496;
+	font-weight:bold;
+	font-size: 12px;
+}
+.footer-nav{
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	padding:10px 0px;
+}
+.footer-nav-space{
+	padding: 10px 0px;
+}
+.footer-nav-space:hover{
+	color: #9bf0e1;
+}
+/* ================== fim barra de navegação =================== */
+
+/* ================== inicio capa =================== */
+
+.capa{
+	display: table;
+	width: 100%;
+	
+}
+.capa-escrita{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.botao{
+	border-radius: 500px;
+	color: white;
+	padding: 10px 35px;
+	text-transform: uppercase;
+
+	margin: 0px 15px;
+
+}
+.botao-roxo{
+	background: #7c25f8;
+
+}
+.botao-roxo:hover{
+	background: #6207e3;
+	color: white;
+}
+.botao-transparente{
+	border: 2px solid white;
+}
+.botao-transparente:hover{
+	background-color: white;
+}
+/* ================== fim capa =================== */
+
+.active{
+	transform: translate3d(0,0,0);
+}
+.activeNew{
+	transform: translate3d(50px,25px,0);
+}
+
+h1{
+	font-size: 65px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+h2{
+	font-size: 45px;
+	letter-spacing: -0.04em;
+}
+h3{
+	font-size: 40px;
+	letter-spacing: -0.04em;
+}
+p{
+	font-size: 18px;
+	font-weight: 600px;
+	line-height: 1.4;
+	letter-spacing: -0.04em;
+}
+.texto-roxo{
+	color: #7c25f8;
+}
+.texto-azul{
+	color: #9bf0e1;
+	font-weight: 600;
+}
+.texto-branco{
+	color: white;
+	font-weight: 600;
+}
+.texto-alinhado{
+	text-align: center;
+	margin-top: 100px;
+}
+.texto-mes{
+	font-size:20px;
+}
+.texto-entre-hr{
+	font-size: 24px;
+}
+.fonte-maior{
+	font-size: 24px;
+}
+.redes-sociais{
+	color: white;
+	padding:0px 5px; 
+}
+.redes-sociais:hover{
+	color:#9bf0e1;
+}
