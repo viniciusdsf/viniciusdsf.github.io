@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Jogo da velha</title>
+		<script src="jquery-2.2.1.js"></script>
+		<script src="jogo.js"></script>
+		<style type="text/css">
+
+			.cabecalho{
+				font-size: 30px;
+				padding: 20px;
+				font-weight: bold;
+				color: blue;
+			}
+			.jogador_1{
+				padding: 0px 20px;
+
+			}
+			.jogador_2{
+				padding: 0px 20px;
+			}
+			#jogo{
+					
+					margin-top: 50px; 
+			}
+
+		</style>
+	</head>
+
+
+
+	<body>
+	<!-- primeira tela do jogo-->
+	<div id="inicio">
+	<table align="center" >
+		<tbody >
+			<tr>
+				<td class="cabecalho" colspan="3" align="center" >
+					Jogo da Velha
+				</td>
+			</tr>
+			<tr>
+				<td class="jogador_1">
+				<img src="imagens/jogador_1.png"><br>
+				<input id="colocar-nome-jogador-1" type="text" name="jogador_1"  placeholder="Digite seu nome" maxlength="12">
+				</td>
+				<td  class="iniciar"><img id="btn-iniciar-jogo" src="imagens/iniciar.png"></td>
+				<td class="jogador_2">
+				<img src="imagens/jogador_2.png"><br>
+				<input id="colocar-nome-jogador-2" type="text" name="jogador_2"  placeholder="Digite seu nome" maxlength="12">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<!-- fim primeira tela do jogo-->
+	<!-- segunda tela do jogo-->
+	<div id="jogo" align="center" style="display: none;" >
+
+			<div style="display: inline-block; margin-right: 20px;">
+				<img src="imagens/jogador_1.png"><br>
+				<span id="nome-jogador-1"></span>
+			</div>
+
+			<div style="display: inline-block; ">
+				<table style="padding: 0px">
+					<tr>
+						<td><div class='jogada' id="a-1" style=" width:100px; height:100px; border-right: 1px solid blue;border-bottom: 1px solid blue;"></div></td>
+						<td><div class='jogada' id="a-2" style=" width:100px; height:100px; border-right: 1px solid blue;border-bottom: 1px solid blue;"></div> </td>
+						<td><div class='jogada' id="a-3" style=" width:100px; height:100px; border-bottom: 1px solid blue;"></div></td>
+					</tr>
+					<tr>
+						<td><div class='jogada' id="b-1" style=" width:100px; height:100px; border-right: 1px solid blue;border-bottom: 1px solid blue;"></div></td>
+						<td><div class='jogada' id="b-2" style=" width:100px; height:100px; border-right: 1px solid blue;border-bottom: 1px solid blue;"></div></td>
+						<td><div class='jogada' id="b-3" style=" width:100px; height:100px; border-bottom: 1px solid blue;"></div></td>
+					</tr>
+					<tr >
+						<td><div class='jogada' id="c-1" style=" width:100px; height:100px; border-right: 1px solid blue;"></div></td>
+						<td><div class='jogada' id="c-2" style=" width:100px; height:100px; border-right: 1px solid blue;"></div></td>
+						<td><div class='jogada' id="c-3" style=" width:100px; height:100px;""></div></td>
+					</tr>
+				</table>
+			</div>
+			<div style="display: inline-block; margin-left: 20px; ">	
+					<img src="imagens/jogador_2.png"><br>
+					<span id="nome-jogador-2"></span>
+			</div>
+	</div>
+	<!-- fim segunda tela do jogo-->
+	</body>
+</html>
